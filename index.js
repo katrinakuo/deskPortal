@@ -2,21 +2,6 @@ var fs = require('fs');
 var http = require('http');
 
 
-////////////////// SEND TEXT /////////////////
-var twilio = require('twilio');
-// client account sid and auth token
-var client = twilio('ACaa9cf232efead076ad4627d86ad4712d', 'd84a900a833a86e4ab8012449438810d');
-
- 
-// client.messages.create({ 
-//     to: '+17743645669', 
-//     from: '+17744625621', 
-//     body: 
-// }, function(err, message) { 
-//     console.log(message.sid); 
-// });
- 
-//////////////////// SEND TEXT /////////////////\
 
 
 var book = {"Katrina":["Boston", "twelfth floor", "east wing"], "Daniel":["Boston", "twelfth floor", "west wing"]};
